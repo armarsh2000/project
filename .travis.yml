@@ -6,5 +6,5 @@ services:
   - docker
 
 before install:
-  - docker pull armarsh2000/project
-  - docker run armarsh2000/project
+  - docker pull gary29198/project
+  - docker run gary29198/project
