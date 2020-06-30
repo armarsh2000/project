@@ -1,0 +1,10 @@
+os:
+  - linux
+  - osx
+
+services:
+  - docker
+
+before install:
+  - docker pull armarsh2000/project
+  - docker run armarsh2000/project
